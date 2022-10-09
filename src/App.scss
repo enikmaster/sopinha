@@ -1,0 +1,53 @@
+@use '_normalize';
+@use '_fonts' as font;
+@use '_colors' as cor;
+@use '_media' as media;
+@use '_sizes' as tam;
+@use 'sass:color';
+
+#root {
+    width: tam.$center;
+    margin: 0 auto;
+    @include media.laptop {
+        width: tam.$centerMobile;
+    }
+    @include media.tablet {
+        width: tam.$centerMobile;
+    }
+    @include media.phone {
+        width: tam.$centerMobile;
+    }
+}
+
+html,
+body {
+    font-family: font.$sans;
+    background-color: cor.$dark;
+    color: cor.$light;
+}
+
+@for $i from 1 to 6 {
+    h#{$i} {
+        font-family: font.$extra;
+    }
+}
+
+.align-center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-center {
+    width: tam.$center;
+    @include media.laptop {
+        width: tam.$centerMobile;
+    }
+    @include media.tablet {
+        width: tam.$centerMobile;
+    }
+    @include media.phone {
+        width: tam.$centerMobile;
+    }
+}
