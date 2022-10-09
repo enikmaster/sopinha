@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+footer span {
+  font-size: 0.9rem;
+}
+footer img {
+  width: 250px;
+}/*# sourceMappingURL=Footer.css.map */
