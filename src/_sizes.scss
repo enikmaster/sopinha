@@ -1,0 +1,20 @@
+// Criar os tamanhos de fonts de acordo com o que for sendo necessário
+// Font Size base 16px
+$sizeSmallest: 0.9rem;    // 14.4px notas
+$sizeSmaller: 1.125rem;   // 18px títulos
+$sizeSmall: 1.25rem;      // 20px texto notas
+$sizeRegular: 1.5rem;     // 24px texto base
+$sizeBig: 2rem;           // 32px menu
+$sizeBigger: 3rem;        // 48px h2 especial
+$sizeBiggest: 6rem;       // 96px h1 especial
+
+// mobile dimensions
+$tabletWidth: 700px;
+$laptopWidth: 1224px;
+$desktopWidth: 1400px;
+
+// outros tamanhos
+$center: 1440px;
+$centerMobile: 90%;
+$logo: 120px;
+$iconWidth: 38px;

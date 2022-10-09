@@ -1,0 +1,25 @@
+@use '_sizes' as tam;
+
+@mixin phone {
+    @media screen and (max-width: #{tam.$tabletWidth - 1px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: #{tam.$tabletWidth}) and (max-width: #{tam.$laptopWidth - 1px}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: #{tam.$laptopWidth}) and (max-width: #{tam.$desktopWidth - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: #{tam.$desktopWidth}) {
+        @content;
+    }
+}
