@@ -10,6 +10,7 @@ const App = () => {
         <div className='controls'>
           <div className='adicionarPalavra'>Adicionar palavra</div>
           <div className='levelSelector'>Selecionar dificuldade</div>
+          <div className='startButton'>Botão Start</div>
         </div>
         <div className='inGame'>
           <div className='aboveGame'>
@@ -18,7 +19,20 @@ const App = () => {
             <div>Nível</div>
           </div>
           <div className='gameArea'>
-            <div className='wrapperLetras'>Sopa de letras</div>
+            <div className='wrapperLetras'>
+              <h2>Sopa de letras</h2>
+              <div className='tabuleiros'>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+                <span className='letra'>0</span>
+              </div>
+            </div>
             <div className='wrapperPalavras'>
               <ul>
                 <li>Coimbra</li>
