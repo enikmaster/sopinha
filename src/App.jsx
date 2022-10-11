@@ -34,6 +34,7 @@ const App = () => {
               </div>
             </div>
             <div className='wrapperPalavras'>
+              <h2>Encontra estas palavras</h2>
               <ul>
                 <li>Coimbra</li>
                 <li>Lisboa</li>
