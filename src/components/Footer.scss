@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  span {
+    font-size: 0.9rem;
+  }
+  img {
+    width: 250px;
+  }
+}

@@ -1,0 +1,5 @@
+@use '../_colors' as cor;
+
+header h1 {
+  color: cor.$secondary;
+}
